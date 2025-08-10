@@ -7,6 +7,8 @@ Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "WinUIDemoApp (Package)", "W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUIDemoApp", "WinUIDemoApp\WinUIDemoApp\WinUIDemoApp.csproj", "{731AC121-0AC5-4AEF-854D-846902EAA8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUISharedLibrary", "WinUISharedLibrary\WinUISharedLibrary.csproj", "{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -47,6 +49,18 @@ Global
 		{731AC121-0AC5-4AEF-854D-846902EAA8A0}.Release|x64.Build.0 = Release|x64
 		{731AC121-0AC5-4AEF-854D-846902EAA8A0}.Release|x86.ActiveCfg = Release|x86
 		{731AC121-0AC5-4AEF-854D-846902EAA8A0}.Release|x86.Build.0 = Release|x86
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|x64.Build.0 = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Debug|x86.Build.0 = Debug|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|ARM64.Build.0 = Release|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|x64.ActiveCfg = Release|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|x64.Build.0 = Release|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|x86.ActiveCfg = Release|Any CPU
+		{28BA4379-DEF7-43FC-A104-B284F8F2AD9D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
