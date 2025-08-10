@@ -1,10 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WinUIDemoApp.Services;
 
 namespace WinUIDemoApp.ViewModels;
-internal class MainViewModel
+
+/// <summary>
+/// ViewModel for the main page of the application.
+/// </summary>
+internal sealed class MainViewModel(ExampleServices exampleServices)
 {
+    /// <summary>
+    /// Provides access to example services.
+    /// </summary>
+    private readonly ExampleServices _exampleServices = exampleServices;
 }
