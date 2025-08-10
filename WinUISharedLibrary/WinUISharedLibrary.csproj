@@ -10,10 +10,18 @@
 		<SupportedOSPlatformVersion>10.0.26100.0</SupportedOSPlatformVersion>
 	</PropertyGroup>
 	<ItemGroup>
+	  <None Remove="Views\MainLibPage.xaml" />
+	</ItemGroup>
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection" />
 		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
 		<PackageReference Include="Microsoft.Windows.SDK.BuildTools" />
 		<PackageReference Include="Microsoft.WindowsAppSDK" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Page Update="Views\MainLibPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </Page>
 	</ItemGroup>
 
 </Project>
