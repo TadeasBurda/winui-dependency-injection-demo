@@ -5,10 +5,10 @@ namespace WinUISharedLibrary.ViewModels;
 /// <summary>
 /// ViewModel for the main page of the application.
 /// </summary>
-internal sealed class MainLibViewModel(ExampleServices exampleServices)
+internal sealed class MainLibViewModel(IExampleServices exampleServices)
 {
     /// <summary>
     /// Provides access to example services.
     /// </summary>
-    private readonly ExampleServices _exampleServices = exampleServices;
+    private readonly IExampleServices _exampleServices = exampleServices;
 }
